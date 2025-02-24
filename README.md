@@ -4,7 +4,8 @@ Below I'm presenting three monetization strategies (beyond potential Node reward
 
 1. ## Donation/offering protocol
 
-Shepherd sub-agents, where applicable, will feature a donation protocol. Before and/or after performing tasks, the system will ask for mandatory or optional donations to the Shepherd treasury when interacting with agents and requesting task performance.  
+Shepherd sub-agents, where applicable, will feature a donation protocol. Before and/or after performing tasks, the system will ask for mandatory or optional donations to the Shepherd treasury when interacting with agents and requesting task performance. This creates clear economic value within the network as offers functionality that is worth paying for, but it offers the optinality of paying custom amounts and only to the extent of perceived value. This protocol drives user adoption of the PFT network as it creates incentives for users to earn or buy PFT token so they can spend it on valuable services.
+
 For example:
 
 * Asking Kairos for guidance on purpose, career change, or new opportunities – a donation option is presented after free advice.  
@@ -44,9 +45,14 @@ At a stage of the project where sub-agents are developed and tested—demonstrat
 
 [transaction check](https://github.com/sayadawant/monetization/blob/main/pft_transact_check.py)
 
+The premium tier creates  economic value by positioning it as a premium, high value add service that is worth compensation of. The premium services drives user adoption of the PFT network as it introduces premium services generating word of mouth engagement, onboarding new users to the network with a clear call-to-action to buying PFT tokens and becoming economic participants in the network.
+
 3. ## Affiliate referral revenue generation
 
 For Pan, the sub-agent focused on presenting PFT-related opportunities such as earning tokens and spending tokens to reach specific goals, an affiliate model type of monetization is a good fit for specific advice on earning tokens, investment opportunities for trading agents, and other spending opportunities.  
+
+An affiliate referral system drives user adoption as it creates economically incentivised referral networks that help creation of value chains within nodes and agents in the PFT ecosystem. Since paying participants become more engaged in the network and use more services, significant economic value can be created for service operators adopting the referral method and for the PFT network as a whole.
+
 As a first iteration and demo, we can conceive the following user process and token flow:
 
 * Pan, during user interactions, recommends our other sub-agent, Pythia, for mystical advice and techno-prophecies for further guidance.  
@@ -62,4 +68,7 @@ In a future state, depending on the development of the PFT blockchain and user i
 
 Code example for Agent implementation of referral payment: [agent demo](https://github.com/sayadawant/monetization/blob/main/referral_agent_demo.py)
 
+## Future improvements, directions
+
+1. Donation based and Premium services can further generate valuable data for other agents, which can be monetized given user consent. 
 
